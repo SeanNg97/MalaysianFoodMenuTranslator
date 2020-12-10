@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #00FF7F;
+}
+
+.container{
+  /*background-color:  #1e2227;*/
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 10vh;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1{
+   margin-left: 80px;
+   width: 500px;
+
+}
+
+p{
+  width: 500px;
+  margin-left: 80px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+ul{
+  max-width: 500px;
+  margin-left: 80px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+iframe{
+    margin-left: 50px;
+    width:560px;
+    height:315px;
+    margin-top: 50px;
+}
+
+.gamedescription{
+  display: inline-block;
+  vertical-align: top;
+}
+
+ @media screen and (max-width: 1200px) {
+   p{
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 90%;
+   }
+
+   h1{
+      margin-left: 50px;
+
+   }
+   .container{
+     padding: 50px 20px;
+     border-radius: 20px;
+     margin-top: 5vh;
+     margin-left:30px;
+     margin-right: 30px;
+   }
+
+   .gamedescription{
+     display: block;
+   }
+
+   iframe{
+     margin-right: auto;
+     margin-left: auto;
+     width:520px;
+     height:300px;
+   }
+
+   ul{
+     margin-left: 20px;
+     max-width: 76%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+  img{
+    width: 320px;
+  }
+
+  iframe{
+    margin-right: auto;
+    margin-left: auto;
+    width:420px;
+    height:230px;
+  }
